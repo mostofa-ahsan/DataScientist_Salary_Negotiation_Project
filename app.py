@@ -362,7 +362,7 @@ for i in features:
 final_features = np.array(float_feature_list).reshape(1, -1)
 
 # model_building
-file_name = "model_file.p"
+file_name = "model_file2.pkl"
 with open(file_name, 'rb') as pickled:
     data = pickle.load(pickled)
     model = data['model']
