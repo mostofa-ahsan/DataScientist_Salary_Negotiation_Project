@@ -370,4 +370,4 @@ with open(file_name, 'rb') as pickled:
 #predict_button call
 if st.button('Predict The Salary'):
     prediction = model.predict(final_features)
-    st.success(f'Your predicted salary is US$ {round(prediction[0],3)*1000} ')
+    st.success(f'Your predicted salary is US$ {round(prediction[0],3)*900} ')
