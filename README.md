@@ -1,4 +1,5 @@
 # Data Science Jobs Salary Prediction: Project Overview
+## Web App Link : https://salary-negotiation-mostofa.herokuapp.com/
 - Created a Web App that estimates data science salaries in the USA to help data scientists negotiate their income when they get a job.
 - The project aims to predict Data Scientist salary based on job descriptions
 - Scraped over 1000 job descriptions from glassdoor using python and selenium
